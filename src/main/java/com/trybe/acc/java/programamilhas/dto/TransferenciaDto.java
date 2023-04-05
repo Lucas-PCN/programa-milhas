@@ -2,6 +2,9 @@ package com.trybe.acc.java.programamilhas.dto;
 
 import javax.validation.constraints.Min;
 
+/**
+ * TransferenciaDto class.
+ */
 public class TransferenciaDto {
 
   private String usuarioDestino;

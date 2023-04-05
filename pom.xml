@@ -158,6 +158,7 @@
 		</executions>
 	      </plugin>
 	    </plugins>
+	    </pluginManagement>
 	  </build>
 	  <profiles>
 	    <profile>
@@ -189,7 +190,6 @@
 		    </executions>
 		  </plugin>
 		</plugins>
-	</pluginManagement>
       </build>
       <properties>
         <quarkus.package.type>native</quarkus.package.type>

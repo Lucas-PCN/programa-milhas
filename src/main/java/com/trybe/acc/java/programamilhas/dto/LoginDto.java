@@ -1,5 +1,8 @@
 package com.trybe.acc.java.programamilhas.dto;
 
+/**
+ * LoginDto class.
+ */
 public class LoginDto {
 
   private String login;

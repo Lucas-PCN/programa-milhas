@@ -8,6 +8,9 @@ import com.trybe.acc.java.programamilhas.model.TipoLancamento;
 import java.time.LocalDate;
 import javax.enterprise.context.ApplicationScoped;
 
+/**
+ * LancamentoUtil class.
+ */
 @ApplicationScoped
 public class LancamentoUtil {
 

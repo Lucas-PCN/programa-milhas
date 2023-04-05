@@ -1,5 +1,8 @@
 package com.trybe.acc.java.programamilhas.dto;
 
+/**
+ * LancamentoDto class.
+ */
 public class LancamentoDto {
 
   private String usuario;

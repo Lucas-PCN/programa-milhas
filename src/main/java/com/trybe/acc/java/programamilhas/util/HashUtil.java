@@ -5,6 +5,9 @@ import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;
 import javax.enterprise.context.ApplicationScoped;
 
+/**
+ * HashUtil class.
+ */
 @ApplicationScoped
 public class HashUtil {
 

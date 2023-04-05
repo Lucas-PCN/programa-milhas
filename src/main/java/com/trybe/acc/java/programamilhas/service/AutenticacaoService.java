@@ -10,6 +10,9 @@ import java.security.spec.InvalidKeySpecException;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 
+/**
+ * AutenticacaoService class.
+ */
 @ApplicationScoped
 public class AutenticacaoService {
 

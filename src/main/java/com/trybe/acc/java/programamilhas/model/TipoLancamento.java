@@ -4,6 +4,9 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+/**
+ * TipoLancamento class.
+ */
 @Entity
 public class TipoLancamento {
 

@@ -12,6 +12,9 @@ import javax.crypto.SecretKey;
 import javax.enterprise.context.ApplicationScoped;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 
+/**
+ * TokenUtil class.
+ */
 @ApplicationScoped
 public class TokenUtil {
 

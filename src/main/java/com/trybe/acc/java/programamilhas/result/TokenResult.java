@@ -1,5 +1,8 @@
 package com.trybe.acc.java.programamilhas.result;
 
+/**
+ * TokenResult class.
+ */
 public class TokenResult {
 
   private String token;

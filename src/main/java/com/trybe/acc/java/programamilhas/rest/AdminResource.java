@@ -28,9 +28,9 @@ public class AdminResource {
 
   @POST
   @Path("/credito")
-  public MensagemResult depositarComoAdmin(@QueryParam("token") String token, LancamentoDto lancamento)
+  public MensagemResult depositarComoAdmin(@QueryParam("token") String tk, LancamentoDto lancamento)
       throws AcessoNaoAutorizadoException {
-    tokenUtil.validarAdmToken(token);
+    tokenUtil.validarAdmToken(tk);
     return service.depositarComoAdmin(lancamento);
   }
 
